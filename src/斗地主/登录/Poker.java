@@ -6,7 +6,7 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
 public class Poker extends JLabel implements MouseListener {
-    String path = "E:\\JavaProject1\\src\\斗地主\\image\\poker\\";
+    String path = "src\\斗地主\\image\\poker\\";
     //牌的名字，格式：数字 - 数字
     private String name;
 

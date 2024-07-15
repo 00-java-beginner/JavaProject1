@@ -9,7 +9,8 @@ import java.util.Collections;
 import java.util.Comparator;
 
 public class GameJFrame extends JFrame implements ActionListener {
-    String path = "E:\\JavaProject1\\src\\斗地主\\image\\poker\\";
+    String path = "src\\斗地主\\image\\poker\\";
+    //E:\java\JavaProject1\src\斗地主\image\poker
 
     //获取界面中的隐藏容器，现在统一获取了，后面直接用就可以了
     public static Container container = null;
