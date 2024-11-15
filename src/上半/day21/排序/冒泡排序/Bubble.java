@@ -1,5 +1,7 @@
 package 上半.day21.排序.冒泡排序;
 
+import java.util.Arrays;
+
 public class Bubble {
     public static void main(String[] args) {
         int[] arr = {2, 3, 5, 1, 4};
@@ -17,8 +19,6 @@ public class Bubble {
             }
         }
 
-        for (int i : arr) {
-            System.out.print(i);
-        }
+        System.out.println(Arrays.toString(arr));
     }
 }
